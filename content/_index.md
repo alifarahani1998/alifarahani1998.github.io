@@ -10,8 +10,6 @@ design:
 
 sections:
 
-
-
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -42,28 +40,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Nowadays, machine learning is ubiquitous, from academia to industry. This miracle has revolutionized the way we interact with technology and has hastened the pace of innovation in everything we see around us.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Despite all advancements in recent years, the ML community is challenged with some aspects of their job that somehow slow this expeditiously growing field: I) Model training is an I/O-Intensive process, requiring multiple epochs of giant-size data loading, while the speed of I/O subsystems is far behind the other system components. II) The impacts of Fine-Tuning hyper-parameters in frameworks on the performance of the applications are not sufficiently debated among ML users.
+
+        That's where my research triggers! "Accelerating ML Workloads by Fine-Tuning In-Framework Hyper-Parameters (Software Side) and Optimal Architectures for System Infrastructure (Hardware Side)".
         
-        Please reach out to collaborate 😃
+        Please reach out to collaborate if you've got any cool idea 😃
     design:
       columns: '1'
-
-
-
-  # - block: collection
-  #   id: pubs
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
-
 
 
   - block: collection
@@ -75,7 +60,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 2
+      count: 0
       # Filter on criteria
       filters:
         author: ""
@@ -109,20 +94,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-
-
-
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
-
 
 
   - block: cta-card

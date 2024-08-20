@@ -37,8 +37,8 @@ profiles:
     url: https://github.com/alifarahani1998?tab=repositories
   - icon: brands/linkedin
     url: https://linkedin.com/in/ali-farahani-005235169/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
 
 
 interests:
@@ -47,12 +47,19 @@ interests:
   - Systems for ML
 
 education:
-  - area: MSc Computer Architecture
+  - area: MSc Computer Engineering
     institution: Sharif University of Technology
     date_start: 2021-10-01
-    date_end: 2024-06-01
+    date_end: 2024-06-18
     summary: |
       GPA: 4/4
+
+      Thesis: 
+      I/O Workload Characterization of Machine Learning Applications in High-Performance
+      Computing (HPC) Centers
+
+      Supervisor:
+      Dr. Hossein Asadi
 
   - area: BSc Computer Engineering
     institution: University of Tehran
@@ -61,32 +68,51 @@ education:
     summary: |
       GPA: 3.9/4
       
-      Courses included:
-      - Data Structure
-      - Algorithms
+      Thesis:
+      Presenting a Meta-Heuristic Algorithm for Optimizing Scheduling and Energy
+      Consumption in Fog Computing
+
+      Supervisor:
+      Dr. Zahra Movahedi
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Graduate Research Assistant
+    company_name: Sharif University of Technology, DSN Lab
+    company_url: 'http://dsn.ce.sharif.edu'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2021-10-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducted research in the field of “High-Performance Computing” to characterize
+        machine learning applications under the supervision of Dr. Hossein Asadi.
+      - Developed new techniques and platforms for characterizing data-intensive applications
+        that trace every aspect of the system, from Disk I/O to CPU/GPU utilization.
+      - Presented a modern HPC architecture optimized for such applications in terms of runtime
+        and resource management based on the characterization results.
+
+  - position: High-Performance Virtual Machines (HPVM) Researcher
+    company_name: Sharif High-Performance Computing (HPC) Center
+    company_url: 'https://hpc.sharif.edu'
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Worked with a team of experts in the fields of Virtualization and Clustering.
+      - Experienced working with high-end tools and environments in cloud computing, e.g. VMware ESXi & vCenter.
+  
+  - position: Teaching Assistant
+    company_name: Sharif University of Technology
+    company_url: 'https://sharif.edu'
+    company_logo: ''
+    date_start: 2021-10-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Advanced Operating Systems (Graduates)
+      - Operating Systems (Undergraduates)
+      - Computer Architecture (Undergraduates)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -126,7 +152,7 @@ languages:
   - name: Persian (Native)
     percent: 100
   - name: English (Full proficiency)
-    percent: 90
+    percent: 100
 
 
 # Awards.
@@ -134,33 +160,17 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Ranked 3rd among best IoT Startups by UTSTP
+    url: 
+    date: '2018-11-01'
+    awarder: University of Tehran Science & Technology Park
+    icon: 
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Awarded as “Top 3 IoT Startups” among all participants in the “IoT Startup Competition
+      Festival” held at the University of Tehran.
+  
 ---
 
 ## Biography
 
-I received the B.Sc. degree in Computer Engineering from the University of Tehran in 2020, and M.Sc. degree in Computer Architecture from Sharif University of Technology (SUT) in 2024. Currently, I'm a research assistant at SUT under the supervision of Prof. Hossein Asadi at Data Storage, Networks, and Processing (DSN) lab. My research interests include Operating Systems, High-Performance Computing (HPC), Systems for Machine Learning and Distributed Systems.
+I received a B.Sc. in Computer Engineering from the University of Tehran in 2020 and an M.Sc. in the same major from Sharif University of Technology (SUT) in 2024. Currently, I'm a research assistant at SUT under the supervision of Prof. Hossein Asadi in the Data Storage, Networks, and Processing (DSN) lab. My research interests include Operating Systems, High-Performance Computing (HPC), Systems for Machine Learning and Distributed Systems.
