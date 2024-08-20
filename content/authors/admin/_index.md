@@ -47,7 +47,7 @@ interests:
   - Systems for ML
 
 education:
-  - area: MSc Computer Engineering
+  - area: MSc in Computer Engineering, 2024
     institution: Sharif University of Technology
     date_start: 2021-10-01
     date_end: 2024-06-18
@@ -61,7 +61,7 @@ education:
       Supervisor:
       Dr. Hossein Asadi
 
-  - area: BSc Computer Engineering
+  - area: BSc in Computer Engineering, 2020
     institution: University of Tehran
     date_start: 2016-09-01
     date_end: 2020-07-01
