@@ -40,13 +40,13 @@ sections:
       title: '📚 My Current Research'
       subtitle: ''
       text: |-
-        Nowadays, machine learning is ubiquitous, from academia to industry. This miracle has revolutionized the way we interact with technology and has hastened the pace of innovation in everything we see around us.
-        
+        Nowadays, machine learning is ubiquitous, from academia to industry. This miracle has revolutionized how we interact with technology and hastened the pace of innovation in everything we see around us.
+
         Despite all advancements in recent years, the ML community is challenged with some aspects of their job that somehow slow this expeditiously growing field: I) Model training is an I/O-Intensive process, requiring multiple epochs of giant-size data loading, while the speed of I/O subsystems is far behind the other system components. II) The impacts of fine-tuning hyper-parameters in frameworks on the performance of the applications have not been sufficiently debated among ML users.
 
-        That’s where my research triggers! “Accelerating ML Workloads by Fine-Tuning In-Framework Data Loading Hyper-Parameters (Software Side) and Exploring Optimal Storage Architectures to mitigate I/O Bottleneck (Hardware Side).”
+        That’s where my research triggers! “Accelerating ML Workloads by Fine-Tuning In-Framework Data Loading Hyper-Parameters (Software Side) and Discovering Optimal Storage Architectures to Mitigate I/O Bottleneck (Hardware Side).”
 
-        Please reach out to collaborate if you’ve got any cool idea 😃
+        Please reach out to collaborate if you’ve got any excellent ideas 😃
     design:
       columns: '1'
 
