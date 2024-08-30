@@ -6,7 +6,6 @@ date: 2024-06-18
 
 authors:
   - admin
-  - Ted
 
 ---
 
